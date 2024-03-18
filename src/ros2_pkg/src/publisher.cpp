@@ -15,7 +15,7 @@ class HelloWorldNode : public rclcpp::Node{
         {
             //this is adding the publisher and giving the topic name and the qos
             publisher_ = this->create_publisher<std_msgs::msg::String>(
-                "hello_world", 10
+                "hello_world", 10 //this is the topic name
             );
             //this is giving the interval after which the publisher should rerun
             timer_ = this->create_wall_timer(1s,
@@ -29,7 +29,7 @@ class HelloWorldNode : public rclcpp::Node{
         //actual function that will do the action in publish
         void publish_hello_world(){
             auto message = std_msgs::msg::String();
-            message.data = "Hello World " + to_string(counter_);
+            message.data = "Hello World " + to_string(counter_); //this is the data for the publisher
             publisher_->publish(message);
             counter_ ++;
         }
