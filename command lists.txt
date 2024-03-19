@@ -5,3 +5,6 @@ ros2 run pkg_name executable_name : runs the executable from the package
 ros2 node list : shows list of the nodes created in the package built
 ros2 topic list : shows list of topic in the package
 ros2 topic echo /topic_name : prints the values from the topic
+colcon build --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo :  build the code with debugging property
+ros2 run --prefix 'gdbserver localhost:3000' pkg_name executable_name : this will run the executable with the debugger in this case gdbserver
+colcon build --symlink-install : this will interlink all the files so no files will be copy pased in between build and install file
