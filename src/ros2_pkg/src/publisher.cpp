@@ -42,7 +42,7 @@ class HelloWorldNode : public rclcpp::Node{
 
 int main(int argc, char * argv[]){
     rclcpp::init(argc,argv);
-    rclcpp::spin(make_shared<HelloWorldNode>());
+    rclcpp::spin(make_shared<HelloWorldNode>()); //this is kind of an infiniteloop till the user hit exit
     rclcpp::shutdown();
     return 0;
 }

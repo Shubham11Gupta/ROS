@@ -1,0 +1,7 @@
+colcon build : used to build the file
+source install/setup.bash : used to source the terminal to the code
+ros2 pkg list : shows list of the packages
+ros2 run pkg_name executable_name : runs the executable from the package
+ros2 node list : shows list of the nodes created in the package built
+ros2 topic list : shows list of topic in the package
+ros2 topic echo /topic_name : prints the values from the topic
