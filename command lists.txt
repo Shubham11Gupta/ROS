@@ -8,3 +8,4 @@ ros2 topic echo /topic_name : prints the values from the topic
 colcon build --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo :  build the code with debugging property
 ros2 run --prefix 'gdbserver localhost:3000' pkg_name executable_name : this will run the executable with the debugger in this case gdbserver
 colcon build --symlink-install : this will interlink all the files so no files will be copy pased in between build and install file
+readlink filename : this will gie the link location of the file
