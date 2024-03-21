@@ -1,0 +1,50 @@
+[0.078s] Invoking command in '/home/dex/workspace/ROS_Project1/build/ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dex/workspace/ROS_Project1/build/ros2_pkg -- -j2 -l2
+[0.112s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.271s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.275s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.307s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.311s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.317s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.335s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.436s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.438s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.567s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.723s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.814s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.815s] -- Configured cppcheck include dirs: 
+[0.815s] -- Configured cppcheck exclude dirs and/or files: 
+[0.817s] -- Added test 'lint_cmake' to check CMake code style
+[0.819s] -- Added test 'uncrustify' to check C / C++ code style
+[0.819s] -- Configured uncrustify additional arguments: 
+[0.821s] -- Added test 'xmllint' to check XML markup files
+[0.824s] -- Configuring done
+[0.858s] -- Generating done
+[0.860s] -- Build files have been written to: /home/dex/workspace/ROS_Project1/build/ros2_pkg
+[0.900s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.917s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.939s] [ 75%] Built target publisher
+[9.776s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[10.392s] [100%] Built target subscriber
+[10.406s] Invoked command in '/home/dex/workspace/ROS_Project1/build/ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dex/workspace/ROS_Project1/build/ros2_pkg -- -j2 -l2
+[10.474s] Invoking command in '/home/dex/workspace/ROS_Project1/build/ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dex/workspace/ROS_Project1/build/ros2_pkg
+[10.487s] -- Install configuration: ""
+[10.489s] -- Execute custom install script
+[10.490s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/publisher
+[10.491s] -- Symlinking: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/subscriber
+[10.504s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_pkg
+[10.507s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_pkg
+[10.507s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/ament_prefix_path.sh
+[10.508s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/ament_prefix_path.dsv
+[10.509s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/path.sh
+[10.509s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/path.dsv
+[10.510s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.bash
+[10.511s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.sh
+[10.511s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.zsh
+[10.511s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.dsv
+[10.512s] -- Symlinking: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/package.dsv
+[10.522s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ament_index/resource_index/packages/ros2_pkg
+[10.523s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkgConfig.cmake
+[10.524s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkgConfig-version.cmake
+[10.524s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/package.xml
+[10.527s] Invoked command in '/home/dex/workspace/ROS_Project1/build/ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dex/workspace/ROS_Project1/build/ros2_pkg

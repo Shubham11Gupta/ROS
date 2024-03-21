@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dex/workspace/ROS_Project1/build/ros2_pkg/publisher" "TARGETS" "publisher" "DESTINATION" "lib/ros2_pkg")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dex/workspace/ROS_Project1/build/ros2_pkg/publisher" "/home/dex/workspace/ROS_Project1/build/ros2_pkg/subscriber" "TARGETS" "publisher" "subscriber" "DESTINATION" "lib/ros2_pkg")
