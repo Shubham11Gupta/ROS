@@ -16,6 +16,7 @@ class HelloWorldNodeSub : public rclcpp::Node{
     private:
         void sub_callback(const std_msgs::msg::String &msg){
             cout<<msg.data<<endl;
+            //RCLCPP_INFO(this->get_logger(),msg.data.c_str()); // this is th logging method in ros
         }
         rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
 };
