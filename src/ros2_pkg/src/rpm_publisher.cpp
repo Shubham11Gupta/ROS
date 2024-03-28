@@ -19,7 +19,7 @@ class RPMpubNode : public rclcpp::Node{
     private:
         void publish_rpm(){
             auto message = std_msgs::msg::Int32();
-            int random = (rand() % 101);
+            int random = rand()%90+10;
             message.data = random;
             publisher_->publish(message);
         }

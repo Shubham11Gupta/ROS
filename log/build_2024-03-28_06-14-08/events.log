@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000351] (ros2_pkg) JobQueued: {'identifier': 'ros2_pkg', 'dependencies': OrderedDict()}
+[0.000395] (ros2_pkg) JobStarted: {'identifier': 'ros2_pkg'}
+[0.089519] (ros2_pkg) JobProgress: {'identifier': 'ros2_pkg', 'progress': 'cmake'}
+[0.089846] (-) TimerEvent: {}
+[0.095244] (ros2_pkg) JobProgress: {'identifier': 'ros2_pkg', 'progress': 'build'}
+[0.095894] (ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dex/workspace/ROS_Project1/build/ros2_pkg', '--', '-j2', '-l2'], 'cwd': '/home/dex/workspace/ROS_Project1/build/ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dex'), ('GIO_MODULE_DIR', '/home/dex/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dex'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/155/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/dex/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('MANAGERPID', '1006'), ('SYSTEMD_EXEC_PID', '1237'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2937'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dex'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:34382'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'dex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vm:@/tmp/.ICE-unix/1188,unix/vm:/tmp/.ICE-unix/1188'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('INVOCATION_ID', 'c1eefbaf74dc44c9a2aa029703fc8309'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3J58K2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-25367c983e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/dex/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dex/workspace/ROS_Project1/build/ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/dex/snap/code/155/.local/share:/home/dex/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.190073] (-) TimerEvent: {}
+[0.291432] (-) TimerEvent: {}
+[0.391797] (-) TimerEvent: {}
+[0.406525] (ros2_pkg) StdoutLine: {'line': b'[ 50%] Built target rpm_publisher\n'}
+[0.406799] (ros2_pkg) StdoutLine: {'line': b'[ 37%] Built target hello_world_publisher\n'}
+[0.491924] (-) TimerEvent: {}
+[0.496305] (ros2_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/rpm_subscriber.dir/src/rpm_subscriber.cpp.o\x1b[0m\n'}
+[0.519793] (ros2_pkg) StdoutLine: {'line': b'[ 87%] Built target hello_world_subscriber\n'}
+[0.592038] (-) TimerEvent: {}
+[0.692459] (-) TimerEvent: {}
+[0.792868] (-) TimerEvent: {}
+[0.893318] (-) TimerEvent: {}
+[0.993874] (-) TimerEvent: {}
+[1.094891] (-) TimerEvent: {}
+[1.195259] (-) TimerEvent: {}
+[1.296732] (-) TimerEvent: {}
+[1.397034] (-) TimerEvent: {}
+[1.497351] (-) TimerEvent: {}
+[1.598210] (-) TimerEvent: {}
+[1.699056] (-) TimerEvent: {}
+[1.800387] (-) TimerEvent: {}
+[1.901222] (-) TimerEvent: {}
+[2.001529] (-) TimerEvent: {}
+[2.101846] (-) TimerEvent: {}
+[2.202165] (-) TimerEvent: {}
+[2.302515] (-) TimerEvent: {}
+[2.402844] (-) TimerEvent: {}
+[2.503172] (-) TimerEvent: {}
+[2.603640] (-) TimerEvent: {}
+[2.704164] (-) TimerEvent: {}
+[2.806502] (-) TimerEvent: {}
+[2.906909] (-) TimerEvent: {}
+[3.007227] (-) TimerEvent: {}
+[3.107554] (-) TimerEvent: {}
+[3.207942] (-) TimerEvent: {}
+[3.308240] (-) TimerEvent: {}
+[3.408578] (-) TimerEvent: {}
+[3.508910] (-) TimerEvent: {}
+[3.609235] (-) TimerEvent: {}
+[3.709536] (-) TimerEvent: {}
+[3.809885] (-) TimerEvent: {}
+[3.910214] (-) TimerEvent: {}
+[4.010598] (-) TimerEvent: {}
+[4.043877] (ros2_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[4.044089] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[4.044159] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[4.044219] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.044276] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.044332] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.044389] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dex/workspace/ROS_Project1/src/ros2_pkg/src/rpm_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[4.044445] (ros2_pkg) StderrLine: {'line': b'/usr/include/c++/11/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (RPMNode::*)(const std_msgs::msg::Int32_<std::allocator<void> >&), RPMNode*>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.044504] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:768:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (RPMNode::*)(const std_msgs::msg::Int32_<std::allocator<void> >&), RPMNode*>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.044561] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (RPMNode::*)(const std_msgs::msg::Int32_<std::allocator<void> >&); _BoundArgs = {RPMNode*}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.044629] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dex/workspace/ROS_Project1/src/ros2_pkg/src/rpm_subscriber.cpp:19:21:\x1b[m\x1b[K   required from here\n'}
+[4.044685] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[4.044742] (ros2_pkg) StderrLine: {'line': b'  755 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[4.044796] (ros2_pkg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[4.044852] (ros2_pkg) StderrLine: {'line': b'  756 | \x1b[01;31m\x1b[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[4.044907] (ros2_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.044961] (ros2_pkg) StderrLine: {'line': b'  757 | \x1b[01;31m\x1b[K                    : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[4.045016] (ros2_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.045071] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[4.053967] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dex/workspace/ROS_Project1/src/ros2_pkg/src/rpm_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRPMNode::RPMNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.054183] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dex/workspace/ROS_Project1/src/ros2_pkg/src/rpm_subscriber.cpp:18:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRPMNode::create_wall_timer(std::chrono::seconds, std::_Bind_helper<false, void (RPMNode::*)(const std_msgs::msg::Int32_<std::allocator<void> >&), RPMNode*>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.054265] (ros2_pkg) StderrLine: {'line': b'   18 |             timer_ = \x1b[01;31m\x1b[Kthis->create_wall_timer(1s,\x1b[m\x1b[K\n'}
+[4.054327] (ros2_pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.054385] (ros2_pkg) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K                bind(&RPMNode::speed,this)\x1b[m\x1b[K\n'}
+[4.054489] (ros2_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K   \n'}
+[4.054551] (ros2_pkg) StderrLine: {'line': b'   20 | \x1b[01;31m\x1b[K            )\x1b[m\x1b[K;\n'}
+[4.054609] (ros2_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                \n'}
+[4.054766] (ros2_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.054919] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.054980] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.055037] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dex/workspace/ROS_Project1/src/ros2_pkg/src/rpm_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[4.055093] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.055167] (ros2_pkg) StderrLine: {'line': b'  238 |   \x1b[01;36m\x1b[Kcreate_wall_timer\x1b[m\x1b[K(\n'}
+[4.055228] (ros2_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.055284] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.055591] (ros2_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[4.055674] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.055732] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.055788] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.055846] (ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dex/workspace/ROS_Project1/src/ros2_pkg/src/rpm_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[4.055902] (ros2_pkg) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1>; CallbackT = std::_Bind<void (RPMNode::*(RPMNode*))(const std_msgs::msg::Int32_<std::allocator<void> >&)>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.055969] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dex/workspace/ROS_Project1/src/ros2_pkg/src/rpm_subscriber.cpp:18:45:\x1b[m\x1b[K   required from here\n'}
+[4.056025] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.056083] (ros2_pkg) StderrLine: {'line': b'  110 | \x1b[01;31m\x1b[KNode\x1b[m\x1b[K::create_wall_timer(\n'}
+[4.056138] (ros2_pkg) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.056282] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.056357] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[4.110700] (-) TimerEvent: {}
+[4.211055] (-) TimerEvent: {}
+[4.311385] (-) TimerEvent: {}
+[4.411723] (-) TimerEvent: {}
+[4.512078] (-) TimerEvent: {}
+[4.612460] (-) TimerEvent: {}
+[4.712823] (-) TimerEvent: {}
+[4.813180] (-) TimerEvent: {}
+[4.913576] (-) TimerEvent: {}
+[5.014010] (-) TimerEvent: {}
+[5.114624] (-) TimerEvent: {}
+[5.215038] (-) TimerEvent: {}
+[5.315514] (-) TimerEvent: {}
+[5.415883] (-) TimerEvent: {}
+[5.516279] (-) TimerEvent: {}
+[5.616683] (-) TimerEvent: {}
+[5.717060] (-) TimerEvent: {}
+[5.817718] (-) TimerEvent: {}
+[5.918078] (-) TimerEvent: {}
+[6.018444] (-) TimerEvent: {}
+[6.118771] (-) TimerEvent: {}
+[6.219096] (-) TimerEvent: {}
+[6.319426] (-) TimerEvent: {}
+[6.419772] (-) TimerEvent: {}
+[6.520106] (-) TimerEvent: {}
+[6.620430] (-) TimerEvent: {}
+[6.720755] (-) TimerEvent: {}
+[6.821089] (-) TimerEvent: {}
+[6.921422] (-) TimerEvent: {}
+[7.021770] (-) TimerEvent: {}
+[7.056815] (ros2_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rpm_subscriber.dir/build.make:76: CMakeFiles/rpm_subscriber.dir/src/rpm_subscriber.cpp.o] Error 1\n'}
+[7.058547] (ros2_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/rpm_subscriber.dir/all] Error 2\n'}
+[7.059376] (ros2_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.060191] (ros2_pkg) CommandEnded: {'returncode': 2}
+[7.121860] (-) TimerEvent: {}
+[7.222172] (-) TimerEvent: {}
+[7.283771] (ros2_pkg) JobEnded: {'identifier': 'ros2_pkg', 'rc': 2}
+[7.295935] (-) EventReactorShutdown: {}

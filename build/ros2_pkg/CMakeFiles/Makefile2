@@ -67,6 +67,7 @@ all: CMakeFiles/hello_world_publisher.dir/all
 all: CMakeFiles/rpm_publisher.dir/all
 all: CMakeFiles/hello_world_subscriber.dir/all
 all: CMakeFiles/rpm_subscriber.dir/all
+all: CMakeFiles/speed_subscriber.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -80,6 +81,7 @@ clean: CMakeFiles/hello_world_publisher.dir/clean
 clean: CMakeFiles/rpm_publisher.dir/clean
 clean: CMakeFiles/hello_world_subscriber.dir/clean
 clean: CMakeFiles/rpm_subscriber.dir/clean
+clean: CMakeFiles/speed_subscriber.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -237,6 +239,32 @@ rpm_subscriber: CMakeFiles/rpm_subscriber.dir/rule
 CMakeFiles/rpm_subscriber.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_subscriber.dir/build.make CMakeFiles/rpm_subscriber.dir/clean
 .PHONY : CMakeFiles/rpm_subscriber.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/speed_subscriber.dir
+
+# All Build rule for target.
+CMakeFiles/speed_subscriber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dex/workspace/ROS_Project1/build/ros2_pkg/CMakeFiles --progress-num=9,10 "Built target speed_subscriber"
+.PHONY : CMakeFiles/speed_subscriber.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/speed_subscriber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dex/workspace/ROS_Project1/build/ros2_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/speed_subscriber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dex/workspace/ROS_Project1/build/ros2_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/speed_subscriber.dir/rule
+
+# Convenience name for target.
+speed_subscriber: CMakeFiles/speed_subscriber.dir/rule
+.PHONY : speed_subscriber
+
+# clean rule for target.
+CMakeFiles/speed_subscriber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/clean
+.PHONY : CMakeFiles/speed_subscriber.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

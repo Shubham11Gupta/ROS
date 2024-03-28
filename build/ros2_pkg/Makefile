@@ -249,6 +249,19 @@ rpm_subscriber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_subscriber.dir/build.make CMakeFiles/rpm_subscriber.dir/build
 .PHONY : rpm_subscriber/fast
 
+#=============================================================================
+# Target rules for targets named speed_subscriber
+
+# Build rule for target.
+speed_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 speed_subscriber
+.PHONY : speed_subscriber
+
+# fast build rule for target.
+speed_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/build
+.PHONY : speed_subscriber/fast
+
 src/hello_world_publisher.o: src/hello_world_publisher.cpp.o
 .PHONY : src/hello_world_publisher.o
 
@@ -345,6 +358,30 @@ src/rpm_subscriber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_subscriber.dir/build.make CMakeFiles/rpm_subscriber.dir/src/rpm_subscriber.cpp.s
 .PHONY : src/rpm_subscriber.cpp.s
 
+src/speed_subscriber.o: src/speed_subscriber.cpp.o
+.PHONY : src/speed_subscriber.o
+
+# target to build an object file
+src/speed_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o
+.PHONY : src/speed_subscriber.cpp.o
+
+src/speed_subscriber.i: src/speed_subscriber.cpp.i
+.PHONY : src/speed_subscriber.i
+
+# target to preprocess a source file
+src/speed_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.i
+.PHONY : src/speed_subscriber.cpp.i
+
+src/speed_subscriber.s: src/speed_subscriber.cpp.s
+.PHONY : src/speed_subscriber.s
+
+# target to generate assembly for a file
+src/speed_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.s
+.PHONY : src/speed_subscriber.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -364,6 +401,7 @@ help:
 	@echo "... hello_world_subscriber"
 	@echo "... rpm_publisher"
 	@echo "... rpm_subscriber"
+	@echo "... speed_subscriber"
 	@echo "... src/hello_world_publisher.o"
 	@echo "... src/hello_world_publisher.i"
 	@echo "... src/hello_world_publisher.s"
@@ -376,6 +414,9 @@ help:
 	@echo "... src/rpm_subscriber.o"
 	@echo "... src/rpm_subscriber.i"
 	@echo "... src/rpm_subscriber.s"
+	@echo "... src/speed_subscriber.o"
+	@echo "... src/speed_subscriber.i"
+	@echo "... src/speed_subscriber.s"
 .PHONY : help
 
 

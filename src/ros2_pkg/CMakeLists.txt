@@ -25,11 +25,14 @@ ament_target_dependencies(hello_world_subscriber rclcpp std_msgs)
 add_executable(rpm_subscriber src/rpm_subscriber.cpp)
 ament_target_dependencies(rpm_subscriber rclcpp std_msgs)
 
+add_executable(speed_subscriber src/speed_subscriber.cpp)
+ament_target_dependencies(speed_subscriber rclcpp std_msgs)
+
 #add_executable(speed_subscriber src/speed_subscriber.cpp)
 #ament_target_dependencies(speed_subscriber rclcpp std_msgs)
 
 install(TARGETS 
-  hello_world_publisher hello_world_subscriber rpm_publisher rpm_subscriber
+  hello_world_publisher hello_world_subscriber rpm_publisher rpm_subscriber speed_subscriber
   DESTINATION 
   lib/${PROJECT_NAME})
 

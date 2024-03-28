@@ -1,0 +1,4 @@
+[ 50%] Built target rpm_publisher
+[ 37%] Built target hello_world_publisher
+[ 62%] [32mBuilding CXX object CMakeFiles/rpm_subscriber.dir/src/rpm_subscriber.cpp.o[0m
+[ 87%] Built target hello_world_subscriber

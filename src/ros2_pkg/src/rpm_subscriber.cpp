@@ -27,7 +27,7 @@ class RPMNode : public rclcpp::Node{
         void speed(const std_msgs::msg::Int32 &msg){
             int rpm = msg.data;
             float speed = (rpm)*10*2*(3.14)/60; //Linear velocity (m/s) = Radius (m) × Angular velocity (rpm) × (2π/60)
-            cout<<speed<<endl;
+            cout<<"rpm = "<<rpm<<endl;
             auto message = std_msgs::msg::String();
             message.data = "Speed = "+ to_string(speed) + " m/s";
             publisher_ ->publish(message);

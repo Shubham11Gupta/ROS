@@ -19,3 +19,4 @@ and add it's depenencies in cmake and package.xml
 
 ros2 run ros2_pkg executable_name --ros-args --log-level debug : this will log the data for the executable
 ros2 run ros2_pkg executable_name --ros-args --log-level node_name:=debug : this will log the data for only specified node in executable
+ros2 param list : it shows the list parameters that are used by running nodes

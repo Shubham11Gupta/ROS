@@ -4,6 +4,7 @@
 /home/dex/workspace/ROS_Project1/build/ros2_pkg/CMakeFiles/rpm_publisher.dir
 /home/dex/workspace/ROS_Project1/build/ros2_pkg/CMakeFiles/hello_world_subscriber.dir
 /home/dex/workspace/ROS_Project1/build/ros2_pkg/CMakeFiles/rpm_subscriber.dir
+/home/dex/workspace/ROS_Project1/build/ros2_pkg/CMakeFiles/speed_subscriber.dir
 /home/dex/workspace/ROS_Project1/build/ros2_pkg/CMakeFiles/test.dir
 /home/dex/workspace/ROS_Project1/build/ros2_pkg/CMakeFiles/edit_cache.dir
 /home/dex/workspace/ROS_Project1/build/ros2_pkg/CMakeFiles/rebuild_cache.dir
