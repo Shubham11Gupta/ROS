@@ -4,7 +4,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "source ~/workspace/ROS_Project1/install/setup.bash && colcon build --symlink-install"
+            "command": "colcon build --symlink-install && source ~/workspace/ROS_Project1/install/setup.bash"
         },
         {
             "label": "debug",

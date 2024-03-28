@@ -13,14 +13,23 @@ find_package(std_msgs REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-add_executable(publisher src/publisher.cpp)
-ament_target_dependencies(publisher rclcpp std_msgs)
+add_executable(hello_world_publisher src/hello_world_publisher.cpp)
+ament_target_dependencies(hello_world_publisher rclcpp std_msgs)
 
-add_executable(subscriber src/subscriber.cpp)
-ament_target_dependencies(subscriber rclcpp std_msgs)
+add_executable(rpm_publisher src/rpm_publisher.cpp)
+ament_target_dependencies(rpm_publisher rclcpp std_msgs)
+
+add_executable(hello_world_subscriber src/hello_world_subscriber.cpp)
+ament_target_dependencies(hello_world_subscriber rclcpp std_msgs)
+
+add_executable(rpm_subscriber src/rpm_subscriber.cpp)
+ament_target_dependencies(rpm_subscriber rclcpp std_msgs)
+
+#add_executable(speed_subscriber src/speed_subscriber.cpp)
+#ament_target_dependencies(speed_subscriber rclcpp std_msgs)
 
 install(TARGETS 
-  publisher subscriber 
+  hello_world_publisher hello_world_subscriber rpm_publisher rpm_subscriber
   DESTINATION 
   lib/${PROJECT_NAME})
 

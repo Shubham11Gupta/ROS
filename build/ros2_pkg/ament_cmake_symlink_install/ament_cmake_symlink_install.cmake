@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "publisher" "subscriber" "DESTINATION" "lib/ros2_pkg")
+# install("TARGETS" "hello_world_publisher" "hello_world_subscriber" "rpm_publisher" "rpm_subscriber" "DESTINATION" "lib/ros2_pkg")
 include("/home/dex/workspace/ROS_Project1/build/ros2_pkg/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/dex/workspace/ROS_Project1/build/ros2_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
