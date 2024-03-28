@@ -1,0 +1,34 @@
+[0.089s] Invoking command in '/home/dex/workspace/ROS_Project1/build/ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dex/workspace/ROS_Project1/build/ros2_pkg -- -j2 -l2
+[0.277s] [35m[1mConsolidate compiler generated dependencies of target rpm_publisher[0m
+[0.354s] [ 20%] Built target hello_world_publisher
+[0.357s] [ 30%] [32mBuilding CXX object CMakeFiles/rpm_publisher.dir/src/rpm_publisher.cpp.o[0m
+[0.508s] [ 50%] Built target hello_world_subscriber
+[0.611s] [ 70%] Built target rpm_subscriber
+[0.706s] [ 90%] Built target speed_subscriber
+[6.809s] [100%] [32m[1mLinking CXX executable rpm_publisher[0m
+[7.113s] [100%] Built target rpm_publisher
+[7.132s] Invoked command in '/home/dex/workspace/ROS_Project1/build/ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dex/workspace/ROS_Project1/build/ros2_pkg -- -j2 -l2
+[7.272s] Invoking command in '/home/dex/workspace/ROS_Project1/build/ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dex/workspace/ROS_Project1/build/ros2_pkg
+[7.305s] -- Install configuration: ""
+[7.306s] -- Execute custom install script
+[7.306s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/hello_world_publisher
+[7.307s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/hello_world_subscriber
+[7.307s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/rpm_publisher
+[7.308s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/rpm_subscriber
+[7.308s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/speed_subscriber
+[7.308s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_pkg
+[7.309s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_pkg
+[7.311s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/ament_prefix_path.sh
+[7.311s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/ament_prefix_path.dsv
+[7.312s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/path.sh
+[7.313s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/path.dsv
+[7.313s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.bash
+[7.314s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.sh
+[7.314s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.zsh
+[7.314s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.dsv
+[7.315s] -- Symlinking: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/package.dsv
+[7.334s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ament_index/resource_index/packages/ros2_pkg
+[7.335s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkgConfig.cmake
+[7.335s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkgConfig-version.cmake
+[7.336s] -- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/package.xml
+[7.346s] Invoked command in '/home/dex/workspace/ROS_Project1/build/ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dex/workspace/ROS_Project1/build/ros2_pkg

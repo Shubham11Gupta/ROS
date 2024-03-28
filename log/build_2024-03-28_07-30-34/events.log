@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000219] (ros2_pkg) JobQueued: {'identifier': 'ros2_pkg', 'dependencies': OrderedDict()}
+[0.000325] (ros2_pkg) JobStarted: {'identifier': 'ros2_pkg'}
+[0.060669] (ros2_pkg) JobProgress: {'identifier': 'ros2_pkg', 'progress': 'cmake'}
+[0.061495] (ros2_pkg) JobProgress: {'identifier': 'ros2_pkg', 'progress': 'build'}
+[0.062191] (ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dex/workspace/ROS_Project1/build/ros2_pkg', '--', '-j2', '-l2'], 'cwd': '/home/dex/workspace/ROS_Project1/build/ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dex'), ('GIO_MODULE_DIR', '/home/dex/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dex'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/155/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/dex/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('MANAGERPID', '1006'), ('SYSTEMD_EXEC_PID', '1237'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2937'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dex'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:34382'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'dex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vm:@/tmp/.ICE-unix/1188,unix/vm:/tmp/.ICE-unix/1188'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('INVOCATION_ID', 'c1eefbaf74dc44c9a2aa029703fc8309'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3J58K2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-25367c983e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/dex/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dex/workspace/ROS_Project1/build/ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/dex/snap/code/155/.local/share:/home/dex/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.089723] (-) TimerEvent: {}
+[0.192564] (-) TimerEvent: {}
+[0.200038] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rpm_publisher\x1b[0m\n'}
+[0.273819] (ros2_pkg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/rpm_publisher.dir/src/rpm_publisher.cpp.o\x1b[0m\n'}
+[0.274201] (ros2_pkg) StdoutLine: {'line': b'[ 30%] Built target hello_world_publisher\n'}
+[0.292624] (-) TimerEvent: {}
+[0.388363] (ros2_pkg) StdoutLine: {'line': b'[ 50%] Built target hello_world_subscriber\n'}
+[0.392719] (-) TimerEvent: {}
+[0.459948] (ros2_pkg) StdoutLine: {'line': b'[ 70%] Built target rpm_subscriber\n'}
+[0.493466] (-) TimerEvent: {}
+[0.515601] (ros2_pkg) StdoutLine: {'line': b'[ 90%] Built target speed_subscriber\n'}
+[0.593615] (-) TimerEvent: {}
+[0.694173] (-) TimerEvent: {}
+[0.794570] (-) TimerEvent: {}
+[0.894855] (-) TimerEvent: {}
+[0.995138] (-) TimerEvent: {}
+[1.095424] (-) TimerEvent: {}
+[1.195825] (-) TimerEvent: {}
+[1.296159] (-) TimerEvent: {}
+[1.396514] (-) TimerEvent: {}
+[1.496806] (-) TimerEvent: {}
+[1.597258] (-) TimerEvent: {}
+[1.697569] (-) TimerEvent: {}
+[1.797970] (-) TimerEvent: {}
+[1.898260] (-) TimerEvent: {}
+[1.998637] (-) TimerEvent: {}
+[2.098974] (-) TimerEvent: {}
+[2.199256] (-) TimerEvent: {}
+[2.299590] (-) TimerEvent: {}
+[2.399950] (-) TimerEvent: {}
+[2.500313] (-) TimerEvent: {}
+[2.600660] (-) TimerEvent: {}
+[2.700961] (-) TimerEvent: {}
+[2.801306] (-) TimerEvent: {}
+[2.901654] (-) TimerEvent: {}
+[3.002018] (-) TimerEvent: {}
+[3.102375] (-) TimerEvent: {}
+[3.202724] (-) TimerEvent: {}
+[3.303129] (-) TimerEvent: {}
+[3.403764] (-) TimerEvent: {}
+[3.504190] (-) TimerEvent: {}
+[3.604621] (-) TimerEvent: {}
+[3.704954] (-) TimerEvent: {}
+[3.805301] (-) TimerEvent: {}
+[3.905646] (-) TimerEvent: {}
+[4.005992] (-) TimerEvent: {}
+[4.106343] (-) TimerEvent: {}
+[4.206694] (-) TimerEvent: {}
+[4.307108] (-) TimerEvent: {}
+[4.407473] (-) TimerEvent: {}
+[4.507870] (-) TimerEvent: {}
+[4.608188] (-) TimerEvent: {}
+[4.708514] (-) TimerEvent: {}
+[4.808791] (-) TimerEvent: {}
+[4.909116] (-) TimerEvent: {}
+[5.009411] (-) TimerEvent: {}
+[5.109687] (-) TimerEvent: {}
+[5.209945] (-) TimerEvent: {}
+[5.310271] (-) TimerEvent: {}
+[5.410552] (-) TimerEvent: {}
+[5.486527] (ros2_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rpm_publisher\x1b[0m\n'}
+[5.510725] (-) TimerEvent: {}
+[5.612535] (-) TimerEvent: {}
+[5.712803] (-) TimerEvent: {}
+[5.813313] (-) TimerEvent: {}
+[5.891298] (ros2_pkg) StdoutLine: {'line': b'[100%] Built target rpm_publisher\n'}
+[5.911160] (ros2_pkg) CommandEnded: {'returncode': 0}
+[5.913708] (-) TimerEvent: {}
+[6.014043] (-) TimerEvent: {}
+[6.092924] (ros2_pkg) JobProgress: {'identifier': 'ros2_pkg', 'progress': 'install'}
+[6.119848] (-) TimerEvent: {}
+[6.131510] (ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dex/workspace/ROS_Project1/build/ros2_pkg'], 'cwd': '/home/dex/workspace/ROS_Project1/build/ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dex'), ('GIO_MODULE_DIR', '/home/dex/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dex'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/155/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/dex/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('MANAGERPID', '1006'), ('SYSTEMD_EXEC_PID', '1237'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2937'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dex'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:34382'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'dex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vm:@/tmp/.ICE-unix/1188,unix/vm:/tmp/.ICE-unix/1188'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('INVOCATION_ID', 'c1eefbaf74dc44c9a2aa029703fc8309'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3J58K2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-25367c983e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/dex/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dex/workspace/ROS_Project1/build/ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/dex/snap/code/155/.local/share:/home/dex/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.161278] (ros2_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.162609] (ros2_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.163655] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/hello_world_publisher\n'}
+[6.164500] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/hello_world_subscriber\n'}
+[6.165328] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/rpm_publisher\n'}
+[6.165980] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/rpm_subscriber\n'}
+[6.166819] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/lib/ros2_pkg/speed_subscriber\n'}
+[6.167762] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_pkg\n'}
+[6.168682] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_pkg\n'}
+[6.169665] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/ament_prefix_path.sh\n'}
+[6.170741] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[6.171699] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/path.sh\n'}
+[6.172474] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/environment/path.dsv\n'}
+[6.173285] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.bash\n'}
+[6.173886] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.sh\n'}
+[6.174480] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.zsh\n'}
+[6.175134] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/local_setup.dsv\n'}
+[6.175454] (ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/package.dsv\n'}
+[6.195683] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ament_index/resource_index/packages/ros2_pkg\n'}
+[6.199086] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkgConfig.cmake\n'}
+[6.200023] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkgConfig-version.cmake\n'}
+[6.200211] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dex/workspace/ROS_Project1/install/ros2_pkg/share/ros2_pkg/package.xml\n'}
+[6.201567] (ros2_pkg) CommandEnded: {'returncode': 0}
+[6.220194] (-) TimerEvent: {}
+[6.320792] (-) TimerEvent: {}
+[6.421371] (-) TimerEvent: {}
+[6.521614] (-) TimerEvent: {}
+[6.554382] (ros2_pkg) JobEnded: {'identifier': 'ros2_pkg', 'rc': 0}
+[6.560149] (-) EventReactorShutdown: {}

@@ -7,9 +7,12 @@
 using namespace std;
 using namespace std::chrono_literals;
 
+int RPM_DEFAULT_VALUE = 100;
+
 class RPMpubNode : public rclcpp::Node{
     public:
         RPMpubNode():Node("RPM_pub_node"){
+            this->declare_parameter<int>("rpm_val",RPM_DEFAULT_VALUE);
             publisher_ = this->create_publisher<std_msgs::msg::Int32>(
                 "rpm",10
             );
@@ -19,8 +22,8 @@ class RPMpubNode : public rclcpp::Node{
     private:
         void publish_rpm(){
             auto message = std_msgs::msg::Int32();
-            int random = rand()%90+10;
-            message.data = random;
+            int rpm = this->get_parameter("rpm_val").as_int();
+            message.data = rpm;
             publisher_->publish(message);
         }
         rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr publisher_;
