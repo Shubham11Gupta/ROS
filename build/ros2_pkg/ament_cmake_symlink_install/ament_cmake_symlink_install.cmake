@@ -313,6 +313,9 @@ message(STATUS "Execute custom install script")
 # install("TARGETS" "hello_world_publisher" "hello_world_subscriber" "rpm_publisher" "rpm_subscriber" "speed_subscriber" "DESTINATION" "lib/ros2_pkg")
 include("/home/dex/workspace/ROS_Project1/build/ros2_pkg/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(DIRECTORY "launch" "DESTINATION" "share/ros2_pkg/")
+ament_cmake_symlink_install_directory("/home/dex/workspace/ROS_Project1/src/ros2_pkg" DIRECTORY "launch" "DESTINATION" "share/ros2_pkg/")
+
 # install(FILES "/home/dex/workspace/ROS_Project1/build/ros2_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/dex/workspace/ROS_Project1/src/ros2_pkg" FILES "/home/dex/workspace/ROS_Project1/build/ros2_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
