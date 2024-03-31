@@ -7,6 +7,7 @@
 
 using namespace std;
 using namespace std::chrono_literals;
+const float wheel_radius = 10.0;
 
 class RPMNode : public rclcpp::Node{
     public:
@@ -15,6 +16,7 @@ class RPMNode : public rclcpp::Node{
                 "rpm",10,
                 bind(&RPMNode::speed,this,placeholders::_1)
             );
+            this->declare_parameter<float>("radius",wheel_radius);
             publisher_ = this->create_publisher<std_msgs::msg::String>(
                 "speed",10
             );
@@ -26,7 +28,8 @@ class RPMNode : public rclcpp::Node{
 
         void speed(const std_msgs::msg::Int32 &msg){
             int rpm = msg.data;
-            float speed = (rpm)*10*2*(3.14)/60; //Linear velocity (m/s) = Radius (m) × Angular velocity (rpm) × (2π/60)
+            float rad = this->get_parameter("radius").as_double();
+            float speed = (rpm)*rad*2*(3.14)/60; //Linear velocity (m/s) = Radius (m) × Angular velocity (rpm) × (2π/60)
             cout<<"rpm = "<<rpm<<endl;
             auto message = std_msgs::msg::String();
             message.data = "Speed = "+ to_string(speed) + " m/s";
